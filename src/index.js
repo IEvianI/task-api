@@ -52,7 +52,7 @@ app.get('/', (_req, res) => {
     success: true,
     message: 'TaskAPI — REST API de gestion de tâches',
     version: '1.0.0',
-    docs: 'http://localhost:3000/api/docs',
+    docs: `${process.env.APP_URL || 'http://localhost:3000'}/api/docs`,
     endpoints: {
       auth: {
         'POST /api/auth/register': 'Créer un compte',
