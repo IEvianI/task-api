@@ -2,7 +2,7 @@
 
 API REST complète avec authentification JWT, gestion de tâches et de projets. Développée en Node.js / Express / PostgreSQL.
 
-🔗 **[Demo live](https://taskapi-ton-url.up.railway.app)** — *(à remplacer après déploiement)*
+🔗 **[Demo live](https://task-api-weld.vercel.app/)**
 
 ---
 
