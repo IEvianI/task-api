@@ -28,6 +28,11 @@ if (process.env.NODE_ENV !== 'production') {
 app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
   customSiteTitle: 'TaskAPI Docs',
   customCss: '.swagger-ui .topbar { background: #0f172a }',
+  customCssUrl: 'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui.min.css',
+  customJs: [
+    'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui-bundle.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui-standalone-preset.min.js',
+  ],
 }))
 app.get('/api/docs.json', (_req, res) => res.json(swaggerSpec))
 
