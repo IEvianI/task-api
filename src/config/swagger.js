@@ -14,7 +14,7 @@ const options = {
     },
     servers: [
       { url: 'http://localhost:3000', description: 'Local' },
-      { url: 'https://taskapi-ton-url.up.railway.app', description: 'Production' },
+      { url: 'postgresql://postgres:zlntgvSJOCpbiruvqMfmSsTdXyjvgeXA@kodama.proxy.rlwy.net:35905/railway', description: 'Production' },
     ],
     components: {
       securitySchemes: {
