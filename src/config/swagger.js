@@ -14,7 +14,7 @@ const options = {
     },
     servers: [
       { url: 'http://localhost:3000', description: 'Local' },
-      { url: 'postgresql://postgres:zlntgvSJOCpbiruvqMfmSsTdXyjvgeXA@kodama.proxy.rlwy.net:35905/railway', description: 'Production' },
+      { url: 'https://task-api-weld.vercel.app', description: 'Production' },
     ],
     components: {
       securitySchemes: {
